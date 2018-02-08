@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2400DB5D202A1F6F00F501A1 /* BranchLocatorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2400DB5C202A1F6F00F501A1 /* BranchLocatorConstants.swift */; };
+		2400DB5F202A2A7C00F501A1 /* BranchLocatorWebserviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2400DB5E202A2A7C00F501A1 /* BranchLocatorWebserviceManager.swift */; };
+		2400DB61202A3FCB00F501A1 /* BranchLocatorDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2400DB60202A3FCB00F501A1 /* BranchLocatorDetailsViewController.swift */; };
+		2400DB81202A77A600F501A1 /* ATMBranchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2400DB80202A77A600F501A1 /* ATMBranchModel.swift */; };
+		2447F1AF202ACBC5007F567E /* BranchLocatorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2447F1AE202ACBC5007F567E /* BranchLocatorUtils.swift */; };
 		248000F9202A0263000B2478 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248000F8202A0263000B2478 /* AppDelegate.swift */; };
-		248000FB202A0263000B2478 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248000FA202A0263000B2478 /* ViewController.swift */; };
+		248000FB202A0263000B2478 /* BranchLocatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248000FA202A0263000B2478 /* BranchLocatorViewController.swift */; };
 		248000FE202A0263000B2478 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248000FC202A0263000B2478 /* Main.storyboard */; };
 		24800100202A0263000B2478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248000FF202A0263000B2478 /* Assets.xcassets */; };
 		24800103202A0263000B2478 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24800101202A0263000B2478 /* LaunchScreen.storyboard */; };
 		2480010E202A0263000B2478 /* ATMBranchLocatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2480010D202A0263000B2478 /* ATMBranchLocatorTests.swift */; };
 		24800119202A0263000B2478 /* ATMBranchLocatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24800118202A0263000B2478 /* ATMBranchLocatorUITests.swift */; };
+		59201ACE804A40F8295F7EE6 /* Pods_ATMBranchLocator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3970CBFF0D2A8B061FB68024 /* Pods_ATMBranchLocator.framework */; };
+		6D0902F612633C78DAA49FE2 /* Pods_ATMBranchLocatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F05C140CD473B8ABB3D71C /* Pods_ATMBranchLocatorTests.framework */; };
+		AE20EA258C8618FF22922B80 /* Pods_ATMBranchLocatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809106321985F29AD04C0590 /* Pods_ATMBranchLocatorUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A6003B85FD88C771122D55C /* Pods-ATMBranchLocator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATMBranchLocator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATMBranchLocator/Pods-ATMBranchLocator.debug.xcconfig"; sourceTree = "<group>"; };
+		2400DB5C202A1F6F00F501A1 /* BranchLocatorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchLocatorConstants.swift; sourceTree = "<group>"; };
+		2400DB5E202A2A7C00F501A1 /* BranchLocatorWebserviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchLocatorWebserviceManager.swift; sourceTree = "<group>"; };
+		2400DB60202A3FCB00F501A1 /* BranchLocatorDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchLocatorDetailsViewController.swift; sourceTree = "<group>"; };
+		2400DB80202A77A600F501A1 /* ATMBranchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMBranchModel.swift; sourceTree = "<group>"; };
+		2447F1AE202ACBC5007F567E /* BranchLocatorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchLocatorUtils.swift; sourceTree = "<group>"; };
 		248000F5202A0263000B2478 /* ATMBranchLocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATMBranchLocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		248000F8202A0263000B2478 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		248000FA202A0263000B2478 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		248000FA202A0263000B2478 /* BranchLocatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchLocatorViewController.swift; sourceTree = "<group>"; };
 		248000FD202A0263000B2478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		248000FF202A0263000B2478 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24800102202A0263000B2478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +61,14 @@
 		24800114202A0263000B2478 /* ATMBranchLocatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATMBranchLocatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24800118202A0263000B2478 /* ATMBranchLocatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMBranchLocatorUITests.swift; sourceTree = "<group>"; };
 		2480011A202A0263000B2478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3970CBFF0D2A8B061FB68024 /* Pods_ATMBranchLocator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATMBranchLocator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F05C140CD473B8ABB3D71C /* Pods_ATMBranchLocatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATMBranchLocatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A22AF68E680B0E125AA402A /* Pods-ATMBranchLocatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATMBranchLocatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATMBranchLocatorUITests/Pods-ATMBranchLocatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		79EA129A24A809D326FD8148 /* Pods-ATMBranchLocatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATMBranchLocatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATMBranchLocatorTests/Pods-ATMBranchLocatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		809106321985F29AD04C0590 /* Pods_ATMBranchLocatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATMBranchLocatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A081ACF796929D1864A8F70 /* Pods-ATMBranchLocator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATMBranchLocator.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATMBranchLocator/Pods-ATMBranchLocator.release.xcconfig"; sourceTree = "<group>"; };
+		BF6BE7E352432853D432D891 /* Pods-ATMBranchLocatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATMBranchLocatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATMBranchLocatorTests/Pods-ATMBranchLocatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		F0C8E183451A1D647CAB8F53 /* Pods-ATMBranchLocatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATMBranchLocatorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATMBranchLocatorUITests/Pods-ATMBranchLocatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59201ACE804A40F8295F7EE6 /* Pods_ATMBranchLocator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D0902F612633C78DAA49FE2 /* Pods_ATMBranchLocatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +92,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE20EA258C8618FF22922B80 /* Pods_ATMBranchLocatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03D4ED63548E7CCEBB907071 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A6003B85FD88C771122D55C /* Pods-ATMBranchLocator.debug.xcconfig */,
+				8A081ACF796929D1864A8F70 /* Pods-ATMBranchLocator.release.xcconfig */,
+				79EA129A24A809D326FD8148 /* Pods-ATMBranchLocatorTests.debug.xcconfig */,
+				BF6BE7E352432853D432D891 /* Pods-ATMBranchLocatorTests.release.xcconfig */,
+				F0C8E183451A1D647CAB8F53 /* Pods-ATMBranchLocatorUITests.debug.xcconfig */,
+				6A22AF68E680B0E125AA402A /* Pods-ATMBranchLocatorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2400DB5A202A1F3A00F501A1 /* Webservice */ = {
+			isa = PBXGroup;
+			children = (
+				2400DB5E202A2A7C00F501A1 /* BranchLocatorWebserviceManager.swift */,
+			);
+			path = Webservice;
+			sourceTree = "<group>";
+		};
+		2400DB5B202A1F4900F501A1 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				2400DB5C202A1F6F00F501A1 /* BranchLocatorConstants.swift */,
+				2447F1AE202ACBC5007F567E /* BranchLocatorUtils.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		248000EC202A0263000B2478 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +136,8 @@
 				2480010C202A0263000B2478 /* ATMBranchLocatorTests */,
 				24800117202A0263000B2478 /* ATMBranchLocatorUITests */,
 				248000F6202A0263000B2478 /* Products */,
+				03D4ED63548E7CCEBB907071 /* Pods */,
+				A36CEA5E820D85A120C79572 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +154,12 @@
 		248000F7202A0263000B2478 /* ATMBranchLocator */ = {
 			isa = PBXGroup;
 			children = (
+				2400DB5B202A1F4900F501A1 /* utils */,
+				24800126202A17D9000B2478 /* Model */,
+				24800127202A17E1000B2478 /* View */,
+				24800128202A17E6000B2478 /* Controller */,
+				2400DB5A202A1F3A00F501A1 /* Webservice */,
 				248000F8202A0263000B2478 /* AppDelegate.swift */,
-				248000FA202A0263000B2478 /* ViewController.swift */,
-				248000FC202A0263000B2478 /* Main.storyboard */,
 				248000FF202A0263000B2478 /* Assets.xcassets */,
 				24800101202A0263000B2478 /* LaunchScreen.storyboard */,
 				24800104202A0263000B2478 /* Info.plist */,
@@ -125,6 +185,41 @@
 			path = ATMBranchLocatorUITests;
 			sourceTree = "<group>";
 		};
+		24800126202A17D9000B2478 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2400DB80202A77A600F501A1 /* ATMBranchModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24800127202A17E1000B2478 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				248000FC202A0263000B2478 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24800128202A17E6000B2478 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				248000FA202A0263000B2478 /* BranchLocatorViewController.swift */,
+				2400DB60202A3FCB00F501A1 /* BranchLocatorDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A36CEA5E820D85A120C79572 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3970CBFF0D2A8B061FB68024 /* Pods_ATMBranchLocator.framework */,
+				63F05C140CD473B8ABB3D71C /* Pods_ATMBranchLocatorTests.framework */,
+				809106321985F29AD04C0590 /* Pods_ATMBranchLocatorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2480011D202A0263000B2478 /* Build configuration list for PBXNativeTarget "ATMBranchLocator" */;
 			buildPhases = (
+				0D217F87B9B9CA19DA5E2E6B /* [CP] Check Pods Manifest.lock */,
 				248000F1202A0263000B2478 /* Sources */,
 				248000F2202A0263000B2478 /* Frameworks */,
 				248000F3202A0263000B2478 /* Resources */,
+				4DD7BBBCE5A4FC6C279E0D89 /* [CP] Embed Pods Frameworks */,
+				387E2E58A58E4171A8E2A5A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24800120202A0263000B2478 /* Build configuration list for PBXNativeTarget "ATMBranchLocatorTests" */;
 			buildPhases = (
+				415D0CB9F4C86DEC717D22DE /* [CP] Check Pods Manifest.lock */,
 				24800105202A0263000B2478 /* Sources */,
 				24800106202A0263000B2478 /* Frameworks */,
 				24800107202A0263000B2478 /* Resources */,
+				2B52B9848808769AD819EEB4 /* [CP] Embed Pods Frameworks */,
+				5351E7D61E284D35235EFAB0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +268,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24800123202A0263000B2478 /* Build configuration list for PBXNativeTarget "ATMBranchLocatorUITests" */;
 			buildPhases = (
+				863AAFC34BED05A0A4B57D8C /* [CP] Check Pods Manifest.lock */,
 				24800110202A0263000B2478 /* Sources */,
 				24800111202A0263000B2478 /* Frameworks */,
 				24800112202A0263000B2478 /* Resources */,
+				7E5B8EB2920FEDCB6C24E137 /* [CP] Embed Pods Frameworks */,
+				2969F73CB0E239568FA73668 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +358,168 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D217F87B9B9CA19DA5E2E6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ATMBranchLocator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2969F73CB0E239568FA73668 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATMBranchLocatorUITests/Pods-ATMBranchLocatorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B52B9848808769AD819EEB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATMBranchLocatorTests/Pods-ATMBranchLocatorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		387E2E58A58E4171A8E2A5A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ATMBranchLocator/Pods-ATMBranchLocator-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATMBranchLocator/Pods-ATMBranchLocator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		415D0CB9F4C86DEC717D22DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ATMBranchLocatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DD7BBBCE5A4FC6C279E0D89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATMBranchLocator/Pods-ATMBranchLocator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5351E7D61E284D35235EFAB0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATMBranchLocatorTests/Pods-ATMBranchLocatorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E5B8EB2920FEDCB6C24E137 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATMBranchLocatorUITests/Pods-ATMBranchLocatorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		863AAFC34BED05A0A4B57D8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ATMBranchLocatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		248000F1202A0263000B2478 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				248000FB202A0263000B2478 /* ViewController.swift in Sources */,
+				248000FB202A0263000B2478 /* BranchLocatorViewController.swift in Sources */,
+				2400DB5D202A1F6F00F501A1 /* BranchLocatorConstants.swift in Sources */,
+				2400DB81202A77A600F501A1 /* ATMBranchModel.swift in Sources */,
 				248000F9202A0263000B2478 /* AppDelegate.swift in Sources */,
+				2400DB5F202A2A7C00F501A1 /* BranchLocatorWebserviceManager.swift in Sources */,
+				2447F1AF202ACBC5007F567E /* BranchLocatorUtils.swift in Sources */,
+				2400DB61202A3FCB00F501A1 /* BranchLocatorDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,11 +683,13 @@
 		};
 		2480011E202A0263000B2478 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A6003B85FD88C771122D55C /* Pods-ATMBranchLocator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LX9R4T76DS;
 				INFOPLIST_FILE = ATMBranchLocator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.asdf.ATMBranchLocator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,11 +700,13 @@
 		};
 		2480011F202A0263000B2478 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A081ACF796929D1864A8F70 /* Pods-ATMBranchLocator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LX9R4T76DS;
 				INFOPLIST_FILE = ATMBranchLocator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.asdf.ATMBranchLocator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -454,6 +717,7 @@
 		};
 		24800121202A0263000B2478 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79EA129A24A809D326FD8148 /* Pods-ATMBranchLocatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +735,7 @@
 		};
 		24800122202A0263000B2478 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF6BE7E352432853D432D891 /* Pods-ATMBranchLocatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +753,7 @@
 		};
 		24800124202A0263000B2478 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0C8E183451A1D647CAB8F53 /* Pods-ATMBranchLocatorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +770,7 @@
 		};
 		24800125202A0263000B2478 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A22AF68E680B0E125AA402A /* Pods-ATMBranchLocatorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

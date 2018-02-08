@@ -1,0 +1,6 @@
+framework module Pods_ATMBranchLocatorTests {
+  umbrella header "Pods-ATMBranchLocatorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
